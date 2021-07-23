@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    /* background-color: salmon; */
+    font-family: Lexend, sans-serif;
+    font-weight: 300;
+    color: #00003B;
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;    
+}
+
+/* Navigation Links */
+
+header {
+    background-color: #8C91A3;
+    height: 150px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#mountain-logo {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+#mountain-logo:hover {
+    opacity: 0.5;
+} 
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    float: left;
+    padding-top: 60px;
+}     
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #00003B;
+}
+
+.active {
+    border-bottom: 1px solid #00003B;
+}
+
+/* hero image */
+
+#hero-image {
+    width: 100%;
+    height: 900px;
+    background: url(../images/mountain.jpeg) no-repeat center center;
+    background-size: cover;
+    overflow: visible;
+}
